@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.whitebox {
+  background-color: hsl(0, 0%, 100%);
+  width: 250px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 10px;
+}
+.fraunces {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.type2 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-size: 14px;
+}
+
+button {
+  width: 160px;
+  height: 40px;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
