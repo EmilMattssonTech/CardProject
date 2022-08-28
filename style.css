@@ -9,20 +9,40 @@
   height: 350px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 60%;
   transform: translate(-50%, -50%);
   margin: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+img {
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  right: 54%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px 0px 0px 10px;
+  padding: 0%;
 }
 .fraunces {
   font-family: "Fraunces", serif;
   font-weight: 700;
   letter-spacing: -1px;
+  padding: 10px;
+}
+#gabi {
+  padding: 10px 10px 10px 25px;
 }
 .type2 {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 10px 65px 10px 10px;
+}
+#perfume {
+  letter-spacing: 3px;
 }
 p {
   font-size: 14px;
+  font-weight: 200;
 }
 
 button {
@@ -32,5 +52,5 @@ button {
   border: none;
   border-radius: 5px;
   color: white;
-  padding: 10px;
+  padding: 10px 10px;
 }
