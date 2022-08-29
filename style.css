@@ -1,29 +1,37 @@
-/* * {
-  box-sizing: border-box;
-  margin: 0%;
-  padding: 0%;
-} */
-.container {
+body {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
 }
 .whitebox {
+  display: flex;
   background-color: hsl(0, 0%, 100%);
-  width: 250px;
-  height: 350px;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px;
+  max-width: 450px;
+  overflow: hidden;
 }
 img {
-  height: 350px;
-  border-radius: 10px 0px 0px 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img-container {
+  flex: 1;
+  background-color: black;
+}
+.text-container {
+  flex: 1;
 }
 .fraunces {
   font-family: "Fraunces", serif;
   font-weight: 700;
   letter-spacing: -1px;
-  padding: 10px;
+  margin-left: 50px;
 }
-#gabi {
-  padding: 10px 10px 10px 25px;
+#gabrielle {
+  margin: 15px;
 }
 .type2 {
   font-family: "Montserrat", sans-serif;
@@ -32,10 +40,14 @@ img {
 }
 #perfume {
   letter-spacing: 3px;
+  font-weight: 600;
 }
 p {
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 600;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: hsl(228, 12%, 48%);
 }
 
 button {
@@ -45,5 +57,12 @@ button {
   border: none;
   border-radius: 5px;
   color: white;
-  /* padding: 10px 10px; */
+  margin-left: 34px;
+  margin-bottom: 10px;
+}
+button:hover {
+  background-color: hsl(158, 37%, 20%);
+}
+#pricecolor {
+  color: hsl(158, 36%, 37%);
 }
